@@ -7,4 +7,5 @@
 \beamer@sectionintoc {7}{Encoding and Decoding}{36}{0}{7}
 \beamer@sectionintoc {8}{Shannon-Fano vs. Huffman}{39}{0}{8}
 \beamer@sectionintoc {9}{Applications}{42}{0}{9}
-\beamer@sectionintoc {10}{Summary}{47}{0}{10}
+\beamer@sectionintoc {10}{Practice Exercises}{47}{0}{10}
+\beamer@sectionintoc {11}{Summary}{60}{0}{11}

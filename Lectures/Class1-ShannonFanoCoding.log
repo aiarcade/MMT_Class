@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.27)  31 DEC 2025 04:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.27)  9 JAN 2026 03:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,10 +1369,18 @@ Overfull \vbox (1.45035pt too high) detected at line 1054
 [46
 
 ]
+Overfull \vbox (40.0771pt too high) detected at line 1492
+ []
+
+
 
 [47
 
 ]
+Overfull \vbox (58.66502pt too high) detected at line 1527
+ []
+
+
 
 [48
 
@@ -1383,6 +1391,78 @@ Overfull \vbox (1.45035pt too high) detected at line 1054
 ]
 
 [50
+
+]
+
+[51
+
+]
+Overfull \vbox (30.26877pt too high) detected at line 1682
+ []
+
+
+
+[52
+
+]
+
+[53
+
+]
+Overfull \vbox (10.93515pt too high) detected at line 1734
+ []
+
+
+
+[54
+
+]
+
+[55
+
+]
+Overfull \vbox (19.93991pt too high) detected at line 1813
+ []
+
+
+
+[56
+
+]
+Overfull \vbox (22.14201pt too high) detected at line 1839
+ []
+
+
+
+[57
+
+]
+
+[58
+
+]
+Overfull \vbox (10.63696pt too high) detected at line 1925
+ []
+
+
+
+[59
+
+]
+
+[60
+
+]
+
+[61
+
+]
+
+[62
+
+]
+
+[63
 
 ]
 \tf@nav=\write6
@@ -1405,32 +1485,34 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Class1-ShannonFanoCoding.out' has not change
 d.
-(rerunfilecheck)             Checksum: C4902B88C23F12D8ACE4992EE1031A5C;1517.
+(rerunfilecheck)             Checksum: 257D6802F9EC44AAF0E4F43AA6DBA748;1655.
  ) 
 Here is how much of TeX's memory you used:
- 28533 strings out of 469626
- 592212 string characters out of 5471010
- 956593 words of memory out of 5000000
- 54664 multiletter control sequences out of 15000+600000
- 636398 words of font info for 73 fonts, out of 8000000 for 9000
+ 28651 strings out of 469626
+ 594361 string characters out of 5471010
+ 974568 words of memory out of 5000000
+ 54753 multiletter control sequences out of 15000+600000
+ 638509 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,399b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,123p,399b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Class1-ShannonFanoCoding.pdf (50 pages, 264389 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></u
+sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr
+/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/l
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Class1-ShannonFanoCoding.pdf (63 pages, 309787 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 1179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 900 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 1325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
