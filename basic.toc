@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Multimedia Basics}{3}{0}{1}
+\beamer@sectionintoc {2}{Graphics and Image Data Representation}{14}{0}{2}
+\beamer@sectionintoc {3}{Color in Image}{23}{0}{3}
+\beamer@sectionintoc {4}{Concepts in Digital Video}{34}{0}{4}
