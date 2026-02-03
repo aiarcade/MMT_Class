@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Why Do We Need JPEG?}{3}{0}{1}
+\beamer@sectionintoc {2}{The Big Picture: JPEG Pipeline}{7}{0}{2}
+\beamer@sectionintoc {3}{Step 1: Color Space Conversion}{9}{0}{3}
+\beamer@sectionintoc {4}{Step 2: Block Splitting}{12}{0}{4}
+\beamer@sectionintoc {5}{Step 3: DCT --- The Magic Transform}{14}{0}{5}
+\beamer@sectionintoc {6}{Step 4: Quantization --- Where Quality is Lost}{17}{0}{6}
+\beamer@sectionintoc {7}{Step 5: Entropy Coding}{21}{0}{7}
+\beamer@sectionintoc {8}{Putting It All Together}{25}{0}{8}
+\beamer@sectionintoc {9}{Real-World Scenarios}{27}{0}{9}
+\beamer@sectionintoc {10}{JPEG vs Other Formats}{32}{0}{10}
+\beamer@sectionintoc {11}{Summary}{34}{0}{11}

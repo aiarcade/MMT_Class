@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Quick Recap: Why Variable-Length Codes?}{3}{0}{1}
+\beamer@sectionintoc {2}{Introduction to Huffman Coding}{6}{0}{2}
+\beamer@sectionintoc {3}{Huffman Algorithm}{9}{0}{3}
+\beamer@sectionintoc {4}{Step-by-Step Example}{12}{0}{4}
+\beamer@sectionintoc {5}{Performance Analysis}{18}{0}{5}
+\beamer@sectionintoc {6}{When Huffman Beats Shannon-Fano}{21}{0}{6}
+\beamer@sectionintoc {7}{Encoding and Decoding}{23}{0}{7}
+\beamer@sectionintoc {8}{Practice Exercises}{25}{0}{8}
+\beamer@sectionintoc {9}{Real-World Applications}{32}{0}{9}
+\beamer@sectionintoc {10}{Variants and Extensions}{35}{0}{10}
+\beamer@sectionintoc {11}{Summary}{38}{0}{11}

@@ -1,0 +1,11 @@
+\BOOKMARK [2][]{Outline0.1}{Why Do We Need JPEG?}{}% 1
+\BOOKMARK [2][]{Outline0.2}{The Big Picture: JPEG Pipeline}{}% 2
+\BOOKMARK [2][]{Outline0.3}{Step 1: Color Space Conversion}{}% 3
+\BOOKMARK [2][]{Outline0.4}{Step 2: Block Splitting}{}% 4
+\BOOKMARK [2][]{Outline0.5}{Step 3: DCT \204 The Magic Transform}{}% 5
+\BOOKMARK [2][]{Outline0.6}{Step 4: Quantization \204 Where Quality is Lost}{}% 6
+\BOOKMARK [2][]{Outline0.7}{Step 5: Entropy Coding}{}% 7
+\BOOKMARK [2][]{Outline0.8}{Putting It All Together}{}% 8
+\BOOKMARK [2][]{Outline0.9}{Real-World Scenarios}{}% 9
+\BOOKMARK [2][]{Outline0.10}{JPEG vs Other Formats}{}% 10
+\BOOKMARK [2][]{Outline0.11}{Summary}{}% 11

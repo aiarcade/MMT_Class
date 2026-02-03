@@ -1,0 +1,712 @@
+COMPUTER SCIENCE AND DESIGN
+
+CXT
+332
+
+MULTIMEDIA
+TECHNOLOGIES
+
+Category
+
+L T
+
+P
+
+Credits
+
+Year of
+Introduction
+
+PEC
+
+2 1
+
+0
+
+3
+
+2021
+
+Preamble:
+This course helps the learner to study the relevance and underlying infrastructure of multimedia
+systems. It also enables the students to apply contemporary theories of multimedia learning to
+the development of multimedia products.
+Prerequisite:
+
+NIL
+
+Course Outcomes: After the completion of the course the student will be able to
+CO#
+CO1
+
+Course Outcomes
+Describe the basic concepts of multimedia data representations, color models,
+audio and video signals and different compression techniques. (Cognitive
+Knowledge Level: Understand)
+
+CO2
+
+Apply the knowledge of various compression algorithms for developing
+multimedia applications. (Cognitive Knowledge Level: Apply)
+
+CO3
+
+Summarize the image compression standards, audio and video
+compression techniques. (Cognitive Knowledge Level: Understand)
+
+CO4
+
+Discuss the concepts of content-based image retrieval. (Cognitive
+Knowledge Level: Understand)
+
+CO5
+
+Describe the concept of cloud computing and its application in multimedia
+technologies. (Cognitive Knowledge Level: Understand)
+
+217
+
+COMPUTER SCIENCE AND DESIGN
+
+Mapping of course outcomes with program outcomes
+PO
+1
+
+PO
+2
+
+PO
+3
+
+PO
+4
+
+PO
+5
+
+PO
+6
+
+PO
+7
+
+PO
+8
+
+PO
+9
+
+PO
+10
+
+PO
+11
+
+PO
+12
+
+CO
+1
+CO
+2
+CO
+3
+CO
+4
+CO
+5
+
+Abstract POs Defined by National Board
+of Accreditation
+PO# Broad PO
+
+PO#
+
+Broad PO
+
+PO1
+
+Engineering Knowledge
+
+PO7
+
+Environment and Sustainability
+
+PO2
+
+Problem Analysis
+
+PO8
+
+Ethics
+
+PO3
+
+Design/Development of solutions
+
+PO9
+
+Individual and team work
+
+PO4
+
+Conduct investigations
+of complex problems
+
+PO10
+
+Communication
+
+PO5
+
+Modern tool usage
+
+PO11
+
+Project Management and Finance
+
+PO6
+
+The Engineer and Society
+
+PO12
+
+Lifelong learning
+
+218
+
+COMPUTER SCIENCE AND DESIGN
+
+Assessment Pattern
+Bloom’s
+Category
+
+Continuous Assessment Tests
+
+End Semester
+Examination
+Marks (%)
+
+Test
+
+Test
+
+1 (%)
+
+2 (%)
+
+Remember
+
+30
+
+30
+
+30
+
+Understand
+
+50
+
+50
+
+50
+
+Apply
+
+20
+
+20
+
+20
+
+Mark Distribution
+Total
+Marks
+
+CIE
+Marks
+
+ESE
+Marks
+
+ESE
+Duration
+
+150
+
+50
+
+100
+
+3
+
+Continuous Internal Evaluation Pattern:
+Attendance
+
+10 marks
+
+Continuous Assessment Tests (Average of Series Tests 1 & 2)
+
+25 marks
+
+Continuous Assessment Assignment
+
+15 marks
+
+Internal Examination Pattern:
+Each of the two internal examinations has to be conducted out of 50 marks. The first series test
+shall be preferably conducted after completing the first half of the syllabus and the second
+series test shall be preferably conducted after completing the remaining part of the syllabus.
+There will be two parts: Part A and Part B. Part A contains 5 questions (preferably, 2 questions
+each from the completed modules and 1 question from the partly completed module), having 3
+marks for each question adding up to 15 marks for part A. Students should answer all questions
+from Part A. Part B contains 7 questions (preferably, 3 questions each from the completed
+modules and 1 question from the partly completed module), each with 7 marks. Out of the 7
+questions, a student should answer any 5.
+
+219
+
+COMPUTER SCIENCE AND DESIGN
+
+End Semester Examination Pattern:
+There will be two parts; Part A and Part B. Part A contains 10 questions with 2 questions from
+each module, having 3 marks for each question. Students should answer all questions. Part B
+contains 2 full questions from each module of which students should answer any one. Each
+question can have a maximum 2 subdivisions and carries 14 marks.
+
+Syllabus
+Module 1
+Multimedia Basics: Multimedia, Hypermedia, WWW, Internet, Multimedia Software, Editing and
+Authoring Tools.
+Graphics and Image Data Representation— Graphics/Image Data Types, Popular File Formats.
+Color in Image - Color Science, Color Models in Images.
+Concepts in Digital Video-Digital Video.
+Module 2
+Basics of Digital Audio—Digitization of Sound, Musical Instrument Digital Interface (MIDI).
+Lossless Compression Algorithms— Introduction, Basics of Information Theory, Run-Length
+Coding, Variable-Length Coding, Dictionary-Based Coding, Arithmetic Coding, Lossless Image
+Compression.
+Module 3
+Lossy Compression Algorithms - Distortion Measures, The Rate- Distortion Theory, Quantization,
+Transform Coding, Wavelet-Based Coding, Wavelet Packets.
+Image Compression Standards— JPEG, JPEG2000, JPEG-LS, Bi-level Image Compression
+Standards.
+Audio Compression Techniques-— ADPCM in Speech Coding, Vocoders, Psychoacoustics, MPEG
+Audio.
+Module 4
+Basic Video Compression Techniques - Introduction to Video Compression, Video Compression
+Based on Motion Compensation, MPEG-1-Video Bitstream, MPEG-2- Supporting Interlaced Video,
+MPEG-4 - Overview, MPEG-7- Introduction.
+Content-Based Retrieval in Digital Libraries- Image Retrieval, CBIRD: A Case Study,
+Quantifying Search Results, Querying on Videos.
+
+220
+
+COMPUTER SCIENCE AND DESIGN
+
+Module 5
+Cloud Computing for Multimedia Services - Cloud Computing Overview, Multimedia Cloud
+Computing, Cloud Assisted Media Sharing, Computation Offloading for Multimedia Services,
+Interactive Cloud Gaming.
+Text Book
+1. Ze-Nian Li and M. S. Drew, Fundamental of Multimedia., Pearson Education,2004
+References
+1. K. R. Rao, Zoran S. Bojkovic, D. A. Milovanovic, Introduction to Multimedia
+Communications., Wiley.
+2. V. S. Subrahmanian,. Principles of Multimedia Database Systems.,
+Morgan Kaufmann Publishers.
+3. R. Steinmetz and K. Nahrstedt,. Multimedia: Computing, Communication & Applications.,
+Pearson Education.
+4. John F.Koegel Buford, .Multimedia Systems., Pearson Education.
+5. Prabhat K. Andheigh, Kiran Thakrar, Multimedia Systems design., Prentice Hall PTR.
+6. Jerry D. Gibson,. Multimedia Communications: Directions and Innovations., Elsevier Science.
+
+221
+
+COMPUTER SCIENCE AND DESIGN
+
+Course level assessment questions
+Course outcome 1 (CO1):
+1. Discuss the relation between multimedia and hypermedia.
+2. The Pitch Bend opcode in MIDI is followed by two data bytes specifying how the control is to be
+altered. How many bits of accuracy does this amount of data correspond to? Why?
+Course outcome 2 (CO2):
+1. Work out the details of the encoder and decoder for adaptive arithmetic coding when the input
+symbols are 01111.
+2. What are the advantages and disadvantages of arithmetic coding as compared to Huffman
+coding?
+3. Assume we have an unbounded source we wish to quantize using an M-bit midtread uniform
+quantizer. Derive an expression for the total distortion if the step size is 1.
+Course outcome 3 (CO3):
+1. Could we use wavelet-based compression in ordinary JPEG? How?
+2. Draw block diagrams for an MPEG-2 encoder and decoder for (a) SNR and spatial hybrid
+scalability, (b) SNR and temporal hybrid scalability.
+3. What is the compression ratio of MPEG audio if stereo audio sampled with 16 bits per sample at
+48 kHz is reduced to a bitstream of 256 kbps?
+Course outcome 4 (CO4):
+1. What is the need of content-based image retrieval?
+2. How can you evaluate the performance of image search engines?
+Course outcome 5 (CO5):
+1. Differentiate between public and private cloud computing.
+2. How does cloud help in live media streaming service?
+3. Explain the modules and their relations in multimedia cloud computing.
+4. What are the different requirements for computation offloading?
+5. Explain different cloud service models.
+
+222
+
+COMPUTER SCIENCE AND DESIGN
+
+APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY
+SIXTH SEMESTER B.TECH DEGREE EXAMINATION, MONTH & YEAR
+Course Code: CXT332
+Course Name: Multimedia Technologies
+Max Marks :100
+
+Duration: 3 Hrs.
+PART A
+(Answer all Questions. Each question carries 3 Marks)
+
+1. Differentiate between multimedia & hypermedia.
+2. What are the different types of tweening?
+3. Explain about MIDI.
+4. Mention the models used in lossless compression schemes.
+5. State the rate- distortion theory.
+6. Explain the need of vocoders.
+7. What is the need of content-based image retrieval?
+8. Draw the architecture for the layers of MPEG-1 video bit streams.
+9. Differentiate between public and private cloud computing.
+10. How does cloud help in live media streaming service?
+(10x3=30)
+
+Part B
+
+(Answer any one question from each module. Each
+question carries 14 Marks)
+11.
+
+a) Illustrate the different multimedia software & tools.
+b) Explain about various color models.
+
+(8)
+(6)
+
+OR
+12. Explain in detail the different image data types?
+13. Explain
+a) Variable length coding
+b) Arithmetic coding.
+
+(14)
+(7)
+(7)
+
+OR
+14. a) Describe vector quantization theory. Discuss its merits over scalar quantization. (8)
+b) Explain the different techniques for digitization of sound.
+
+223
+
+(6)
+
+COMPUTER SCIENCE AND DESIGN
+
+15.
+
+a) Describe the various steps of the JPEG compression process.
+
+(7)
+
+b) Enumerate the difference between JPEG and JBIG standards.
+
+(7)
+
+OR
+
+16. a) Explain Bi-level image compression standards.
+
+(8)
+
+b) Differentiate between uniform and non-uniform scalar quantization.
+17. a) Illustrate Similarity- Based Retrieval with example.
+
+(6)
+
+(8)
+
+b) How can you evaluate the performance of image search engines?
+
+(6)
+
+OR
+18. Outline the key features of the following
+a) MPEG-2
+b) MPEG-4
+
+(7)
+
+19. a) Explain different cloud service models.
+b) What are the different requirements for computation offloading?
+
+20.
+
+(7)
+
+OR
+a) Explain the modules and their relations in multimedia cloud computing. (8)
+b) What are the issues and challenges of cloud gaming?
+
+(8)
+(6)
+
+(6)
+
+(5 x 14 = 70)
+
+224
+
+COMPUTER SCIENCE AND DESIGN
+
+Teaching Plan
+No
+
+Contents
+
+No of
+Lectur
+e37
+Hrs
+Module 1 (6
+hours)
+
+1.1
+
+Multimedia Basics - Multimedia, Hypermedia, WWW, Internet.
+
+1
+
+1.2
+
+Multimedia Software, Editing and Authoring Tools.
+
+1
+
+1.3
+
+Graphics/Image Data Types, Popular File Formats.
+
+1
+
+1.4
+
+Color Science.
+
+1
+
+1.5
+
+Color Models in Images.
+
+1
+
+1.6
+
+Concepts in Digital Video.
+
+1
+Module 2 (9
+hours)
+
+2.1
+
+Digitization of Sound.
+
+1
+
+2.2
+
+Musical Instrument Digital Interface(MIDI).
+
+1
+
+2.3
+
+Lossless Compression Algorithms— Introduction.
+
+1
+
+2.4
+
+Basics of Information Theory.
+
+1
+
+2.5
+
+Run-Length Coding.
+
+1
+
+2.6
+
+Variable-Length Coding.
+
+2.7
+
+Dictionary-Based Coding,
+
+2.8
+
+Arithmetic Coding
+
+2.9
+
+Lossless Image Compression.
+
+1
+
+1
+
+225
+
+COMPUTER SCIENCE AND DESIGN
+
+Module 3 (8 hours)
+3.1
+
+Lossy Compression Algorithms - Distortion Measures, The
+Rate- Distortion Theory.
+
+1
+
+3.2
+
+Quantization, Transform Coding.
+
+1
+
+3.3
+
+Wavelet-Based Coding, Wavelet Packets.
+
+1
+
+3.4
+
+Image Compression Standards— JPEG, JPEG2000.
+
+1
+
+3.5
+
+JPEG-LS, Bi-level image compression standards.
+
+1
+
+3.6
+
+Audio Compression Techniques-—ADPCM in Speech Coding
+
+1
+
+3.7
+
+Vocoders, Psychoacoustics.
+
+1
+
+3.8
+
+MPEG Audio.
+
+1
+Module 4 (8 hours)
+
+4.1
+
+1
+
+4.2
+
+Basic Video Compression Techniques - Introduction to
+Video Compression.
+Video Compression Based on Motion Compensation.
+
+4.3
+
+MPEG-1-Video Bitstream,MPEG-2- Supporting interlaced video.
+
+1
+
+4.4
+
+MPEG-4 - Overview.
+
+1
+
+4.5
+
+MPEG-7- Introduction.
+
+1
+
+4.6
+
+Image Retrieval.
+
+4.7
+
+CBIRD: A Case Study.
+
+1
+
+4.8
+
+Quantifying Search Results, Querying on Videos.
+
+1
+
+226
+
+COMPUTER SCIENCE AND DESIGN
+
+Module 5 (6 hours)
+5.1
+
+Cloud Computing Overview.
+
+1
+
+5.2
+
+Multimedia Cloud Computing.
+
+1
+
+5.3
+
+Cloud Assisted Media Sharing.
+
+1
+
+5.4
+
+1
+
+5.5
+
+Computation Offloading -Requirements, Service Partitioning for
+Video Coding
+Case Study: Cloud Assisted Motion Estimation
+
+5.6
+
+Interactive Cloud Gaming
+
+1
+
+227
+
+1
+
+

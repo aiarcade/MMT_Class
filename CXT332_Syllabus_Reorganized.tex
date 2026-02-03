@@ -1,0 +1,626 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{colortbl}
+
+% Colors
+\definecolor{headerblue}{RGB}{0,51,102}
+\definecolor{lightblue}{RGB}{230,240,250}
+\definecolor{accentgreen}{RGB}{0,102,51}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textcolor{headerblue}{CXT332 - Multimedia Technologies}}
+\fancyhead[R]{\small\textcolor{headerblue}{Reorganized Syllabus}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+
+% Title formatting
+\titleformat{\section}{\Large\bfseries\color{headerblue}}{\thesection}{1em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries\color{accentgreen}}{\thesubsection}{1em}{}
+
+% Custom commands
+\newcommand{\modulebox}[2]{%
+    \noindent\colorbox{headerblue}{%
+        \parbox{\dimexpr\textwidth-2\fboxsep}{%
+            \textcolor{white}{\textbf{#1}} \hfill \textcolor{white}{\textbf{#2 Hours}}%
+        }%
+    }%
+}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries\textcolor{headerblue}{MULTIMEDIA TECHNOLOGIES}\\[0.5cm]}
+    {\Large\textcolor{accentgreen}{CXT 332}\\[1cm]}
+    
+    \rule{\textwidth}{1pt}\\[0.5cm]
+    
+    {\LARGE\bfseries Reorganized Syllabus\\[0.3cm]}
+    {\large\textit{Optimized 4-Module Structure}\\[0.5cm]}
+    
+    \rule{\textwidth}{1pt}\\[2cm]
+    
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \rowcolor{lightblue}
+        \textbf{Category} & \textbf{L} & \textbf{T} & \textbf{P} & \textbf{Credits} \\
+        \hline
+        PEC & 2 & 1 & 0 & 3 \\
+        \hline
+    \end{tabular}
+    
+    \vspace{1cm}
+    
+    \begin{tabular}{|l|l|}
+        \hline
+        \rowcolor{lightblue}
+        \textbf{Total Contact Hours} & 36 Hours \\
+        \hline
+        \textbf{Number of Modules} & 4 Modules (9 Hours Each) \\
+        \hline
+        \textbf{Prerequisite} & NIL \\
+        \hline
+    \end{tabular}
+    
+    \vfill
+    
+    {\large Department of Computer Science and Design\\[0.3cm]}
+    {\large APJ Abdul Kalam Technological University\\[0.5cm]}
+    
+    \vspace{1cm}
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------
+\section{Preamble}
+%----------------------------------------------------------------------
+
+This course provides a comprehensive understanding of multimedia systems, covering the fundamental concepts of digital media representation, compression techniques, and modern applications. The reorganized structure ensures a logical progression from basics to advanced topics, with practical emphasis on industry-relevant standards.
+
+\subsection{Key Learning Objectives}
+\begin{itemize}[leftmargin=*]
+    \item Understand multimedia data representations including graphics, audio, and video
+    \item Master both lossless and lossy compression algorithms
+    \item Apply knowledge of industry standards (JPEG, MPEG family)
+    \item Explore modern applications including content-based retrieval and cloud computing
+\end{itemize}
+
+%----------------------------------------------------------------------
+\section{Course Outcomes}
+%----------------------------------------------------------------------
+
+\begin{longtable}{|c|p{12cm}|}
+    \hline
+    \rowcolor{headerblue}
+    \textcolor{white}{\textbf{CO\#}} & \textcolor{white}{\textbf{Course Outcome Description}} \\
+    \hline
+    \endfirsthead
+    \hline
+    \rowcolor{headerblue}
+    \textcolor{white}{\textbf{CO\#}} & \textcolor{white}{\textbf{Course Outcome Description}} \\
+    \hline
+    \endhead
+    
+    CO1 & Describe the basic concepts of multimedia data representations, color models, audio and video signals. \textit{(Cognitive Level: Understand)} \\
+    \hline
+    CO2 & Apply lossless and lossy compression algorithms for developing multimedia applications. \textit{(Cognitive Level: Apply)} \\
+    \hline
+    CO3 & Analyze image, audio, and video compression standards and their applications. \textit{(Cognitive Level: Analyze)} \\
+    \hline
+    CO4 & Evaluate content-based retrieval techniques and cloud computing applications in multimedia. \textit{(Cognitive Level: Evaluate)} \\
+    \hline
+\end{longtable}
+
+%----------------------------------------------------------------------
+\section{CO-PO Mapping}
+%----------------------------------------------------------------------
+
+\begin{center}
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    \rowcolor{lightblue}
+    & \textbf{PO1} & \textbf{PO2} & \textbf{PO3} & \textbf{PO4} & \textbf{PO5} & \textbf{PO6} & \textbf{PO7} & \textbf{PO8} & \textbf{PO9} & \textbf{PO10} & \textbf{PO11} & \textbf{PO12} \\
+    \hline
+    \textbf{CO1} & 3 & 2 & 1 & - & 2 & - & - & - & - & - & - & 2 \\
+    \hline
+    \textbf{CO2} & 3 & 3 & 2 & 2 & 2 & - & - & - & 1 & - & - & 2 \\
+    \hline
+    \textbf{CO3} & 3 & 2 & 2 & 2 & 3 & - & - & - & 1 & - & - & 2 \\
+    \hline
+    \textbf{CO4} & 2 & 2 & 2 & 2 & 3 & 1 & 1 & - & 1 & 1 & 1 & 3 \\
+    \hline
+\end{tabular}
+\end{center}
+
+\vspace{0.5cm}
+\noindent\textbf{PO Definitions:}
+\begin{center}
+\footnotesize
+\begin{tabular}{|l|l||l|l|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{PO\#} & \textbf{Description} & \textbf{PO\#} & \textbf{Description} \\
+    \hline
+    PO1 & Engineering Knowledge & PO7 & Environment and Sustainability \\
+    \hline
+    PO2 & Problem Analysis & PO8 & Ethics \\
+    \hline
+    PO3 & Design/Development of Solutions & PO9 & Individual and Team Work \\
+    \hline
+    PO4 & Conduct Investigations & PO10 & Communication \\
+    \hline
+    PO5 & Modern Tool Usage & PO11 & Project Management and Finance \\
+    \hline
+    PO6 & The Engineer and Society & PO12 & Lifelong Learning \\
+    \hline
+\end{tabular}
+\end{center}
+
+\newpage
+
+%======================================================================
+\section{Detailed Syllabus (4 Modules - 36 Hours)}
+%======================================================================
+
+%----------------------------------------------------------------------
+\subsection*{}
+\modulebox{MODULE 1: Multimedia Fundamentals \& Data Representation}{9}
+\addcontentsline{toc}{subsection}{Module 1: Multimedia Fundamentals \& Data Representation (9 Hours)}
+
+\vspace{0.5cm}
+
+\noindent\textbf{Overview:} This module introduces the foundational concepts of multimedia systems, including data types, file formats, color science, and digital audio/video basics.
+
+\vspace{0.3cm}
+
+\begin{longtable}{|c|p{10cm}|c|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endfirsthead
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endhead
+    
+    1.1 & \textbf{Introduction to Multimedia Systems} \newline Multimedia concepts, Hypermedia, WWW and Internet infrastructure & 1 \\
+    \hline
+    1.2 & \textbf{Multimedia Software Tools} \newline Editing tools, Authoring tools, Production workflows & 1 \\
+    \hline
+    1.3 & \textbf{Graphics \& Image Data Types} \newline Raster vs Vector graphics, Bit depth, Resolution concepts & 1 \\
+    \hline
+    1.4 & \textbf{Popular File Formats} \newline BMP, GIF, PNG, TIFF, JPEG - Structure and use cases & 1 \\
+    \hline
+    1.5 & \textbf{Color Science Fundamentals} \newline Human visual system, Color perception, Color spaces & 1 \\
+    \hline
+    1.6 & \textbf{Color Models in Images} \newline RGB, CMY/CMYK, HSV/HSL, YUV/YCbCr color models & 1 \\
+    \hline
+    1.7 & \textbf{Digital Audio Fundamentals} \newline Digitization of sound, Sampling, Quantization, Nyquist theorem & 1 \\
+    \hline
+    1.8 & \textbf{MIDI and Audio Interfaces} \newline Musical Instrument Digital Interface, MIDI messages, Synthesis & 1 \\
+    \hline
+    1.9 & \textbf{Digital Video Concepts} \newline Video signals, Frame rates, Interlacing, Video formats overview & 1 \\
+    \hline
+\end{longtable}
+
+\vspace{0.3cm}
+\noindent\textbf{Learning Outcomes:}
+\begin{itemize}[leftmargin=*]
+    \item Explain multimedia system components and their relationships
+    \item Differentiate between various image file formats and their applications
+    \item Apply appropriate color models for different multimedia applications
+    \item Understand digital audio and video signal characteristics
+\end{itemize}
+
+\newpage
+
+%----------------------------------------------------------------------
+\subsection*{}
+\modulebox{MODULE 2: Compression Algorithms \& Techniques}{9}
+\addcontentsline{toc}{subsection}{Module 2: Compression Algorithms \& Techniques (9 Hours)}
+
+\vspace{0.5cm}
+
+\noindent\textbf{Overview:} This module covers both lossless and lossy compression algorithms, providing the theoretical foundation and practical implementation aspects of data compression.
+
+\vspace{0.3cm}
+
+\begin{longtable}{|c|p{10cm}|c|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endfirsthead
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endhead
+    
+    2.1 & \textbf{Information Theory Basics} \newline Entropy, Redundancy, Compression fundamentals & 1 \\
+    \hline
+    2.2 & \textbf{Run-Length Encoding (RLE)} \newline Algorithm, Applications, Variants for different data types & 1 \\
+    \hline
+    2.3 & \textbf{Variable-Length Coding} \newline Huffman coding, Shannon-Fano coding, Optimal prefix codes & 1 \\
+    \hline
+    2.4 & \textbf{Dictionary-Based Coding} \newline LZ77, LZ78, LZW algorithms, Sliding window techniques & 1 \\
+    \hline
+    2.5 & \textbf{Arithmetic Coding} \newline Principles, Encoder/Decoder implementation, Adaptive methods & 1 \\
+    \hline
+    2.6 & \textbf{Lossy Compression Fundamentals} \newline Distortion measures (MSE, PSNR), Rate-Distortion theory & 1 \\
+    \hline
+    2.7 & \textbf{Quantization Techniques} \newline Scalar quantization, Vector quantization, Lloyd-Max algorithm & 1 \\
+    \hline
+    2.8 & \textbf{Transform Coding} \newline DCT, DFT fundamentals, Transform domain compression & 1 \\
+    \hline
+    2.9 & \textbf{Wavelet-Based Coding} \newline Wavelet transforms, Multi-resolution analysis, Wavelet packets & 1 \\
+    \hline
+\end{longtable}
+
+\vspace{0.3cm}
+\noindent\textbf{Learning Outcomes:}
+\begin{itemize}[leftmargin=*]
+    \item Calculate entropy and compression bounds using information theory
+    \item Implement lossless compression algorithms (Huffman, LZW, Arithmetic)
+    \item Apply quantization techniques for lossy compression
+    \item Understand transform-based and wavelet-based compression methods
+\end{itemize}
+
+\newpage
+
+%----------------------------------------------------------------------
+\subsection*{}
+\modulebox{MODULE 3: Multimedia Compression Standards}{9}
+\addcontentsline{toc}{subsection}{Module 3: Multimedia Compression Standards (9 Hours)}
+
+\vspace{0.5cm}
+
+\noindent\textbf{Overview:} This module focuses on industry-standard compression formats for images, audio, and video, with emphasis on JPEG and MPEG families.
+
+\vspace{0.3cm}
+
+\begin{longtable}{|c|p{10cm}|c|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endfirsthead
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endhead
+    
+    3.1 & \textbf{JPEG Standard} \newline Baseline JPEG, DCT-based compression, Quality settings & 1.5 \\
+    \hline
+    3.2 & \textbf{JPEG2000 \& JPEG-LS} \newline Wavelet-based JPEG2000, Lossless JPEG, Comparison & 1 \\
+    \hline
+    3.3 & \textbf{Bi-level Image Compression} \newline JBIG, JBIG2, Fax standards (G3, G4) & 0.5 \\
+    \hline
+    3.4 & \textbf{Audio Compression Fundamentals} \newline ADPCM, Speech coding principles, Vocoders & 1 \\
+    \hline
+    3.5 & \textbf{Psychoacoustic Models} \newline Human auditory system, Masking effects, Critical bands & 1 \\
+    \hline
+    3.6 & \textbf{MPEG Audio (MP3, AAC)} \newline MPEG-1 Layer III, AAC, Encoding/Decoding pipeline & 1 \\
+    \hline
+    3.7 & \textbf{Video Compression Principles} \newline Motion estimation, Motion compensation, Block matching & 1 \\
+    \hline
+    3.8 & \textbf{MPEG-1 \& MPEG-2} \newline Video bitstream structure, I/P/B frames, Interlaced support & 1 \\
+    \hline
+    3.9 & \textbf{MPEG-4, MPEG-7 \& Modern Codecs} \newline Object-based coding, Metadata, H.264/AVC overview & 1 \\
+    \hline
+\end{longtable}
+
+\vspace{0.3cm}
+\noindent\textbf{Learning Outcomes:}
+\begin{itemize}[leftmargin=*]
+    \item Explain the complete JPEG encoding/decoding pipeline
+    \item Compare different image compression standards and their use cases
+    \item Analyze MPEG audio and video compression techniques
+    \item Evaluate trade-offs between compression ratio and quality
+\end{itemize}
+
+\newpage
+
+%----------------------------------------------------------------------
+\subsection*{}
+\modulebox{MODULE 4: Advanced Applications \& Cloud Multimedia}{9}
+\addcontentsline{toc}{subsection}{Module 4: Advanced Applications \& Cloud Multimedia (9 Hours)}
+
+\vspace{0.5cm}
+
+\noindent\textbf{Overview:} This module covers modern applications including content-based retrieval systems and cloud computing for multimedia services.
+
+\vspace{0.3cm}
+
+\begin{longtable}{|c|p{10cm}|c|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endfirsthead
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Unit} & \textbf{Topic} & \textbf{Hours} \\
+    \hline
+    \endhead
+    
+    4.1 & \textbf{Content-Based Image Retrieval (CBIR)} \newline Feature extraction, Color histograms, Texture features & 1.5 \\
+    \hline
+    4.2 & \textbf{Similarity Measures \& Indexing} \newline Distance metrics, Indexing structures, Query processing & 1 \\
+    \hline
+    4.3 & \textbf{CBIR Case Study} \newline CBIRD system, Practical implementation considerations & 1 \\
+    \hline
+    4.4 & \textbf{Video Retrieval \& Search} \newline Video segmentation, Keyframe extraction, Video querying & 1 \\
+    \hline
+    4.5 & \textbf{Cloud Computing Overview} \newline Cloud service models (IaaS, PaaS, SaaS), Deployment models & 1 \\
+    \hline
+    4.6 & \textbf{Multimedia Cloud Computing} \newline Architecture, Components, Resource management & 1 \\
+    \hline
+    4.7 & \textbf{Cloud Media Services} \newline Media sharing, Streaming services, CDN integration & 1 \\
+    \hline
+    4.8 & \textbf{Computation Offloading} \newline Mobile cloud computing, Service partitioning, Video coding & 1 \\
+    \hline
+    4.9 & \textbf{Interactive Cloud Gaming} \newline Architecture, Latency challenges, Quality of Experience & 0.5 \\
+    \hline
+\end{longtable}
+
+\vspace{0.3cm}
+\noindent\textbf{Learning Outcomes:}
+\begin{itemize}[leftmargin=*]
+    \item Design content-based image retrieval systems
+    \item Implement similarity-based search for multimedia databases
+    \item Analyze cloud computing architectures for multimedia applications
+    \item Evaluate computation offloading strategies for mobile multimedia
+\end{itemize}
+
+\newpage
+
+%======================================================================
+\section{Teaching Plan Summary}
+%======================================================================
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+    \hline
+    \rowcolor{headerblue}
+    \textcolor{white}{\textbf{Module}} & \textcolor{white}{\textbf{Topics}} & \textcolor{white}{\textbf{Hours}} \\
+    \hline
+    Module 1: Multimedia Fundamentals & 9 & 9 \\
+    \hline
+    Module 2: Compression Algorithms & 9 & 9 \\
+    \hline
+    Module 3: Compression Standards & 9 & 9 \\
+    \hline
+    Module 4: Advanced Applications & 9 & 9 \\
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Total} & \textbf{36} & \textbf{36} \\
+    \hline
+\end{tabular}
+\end{center}
+
+%======================================================================
+\section{Assessment Pattern}
+%======================================================================
+
+\subsection{Bloom's Taxonomy Distribution}
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+    \hline
+    \rowcolor{headerblue}
+    \textcolor{white}{\textbf{Bloom's Category}} & \textcolor{white}{\textbf{Test 1 (\%)}} & \textcolor{white}{\textbf{Test 2 (\%)}} & \textcolor{white}{\textbf{ESE (\%)}} \\
+    \hline
+    Remember & 20 & 20 & 20 \\
+    \hline
+    Understand & 40 & 40 & 40 \\
+    \hline
+    Apply & 25 & 25 & 25 \\
+    \hline
+    Analyze/Evaluate & 15 & 15 & 15 \\
+    \hline
+\end{tabular}
+\end{center}
+
+\subsection{Mark Distribution}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+    \hline
+    \rowcolor{lightblue}
+    \textbf{Total Marks} & \textbf{CIE Marks} & \textbf{ESE Marks} & \textbf{ESE Duration} \\
+    \hline
+    150 & 50 & 100 & 3 Hours \\
+    \hline
+\end{tabular}
+\end{center}
+
+\subsection{Continuous Internal Evaluation (CIE)}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Attendance:} 10 marks
+    \item \textbf{Continuous Assessment Tests:} 25 marks (Average of Series Tests 1 \& 2)
+    \item \textbf{Assignments/Mini Projects:} 15 marks
+\end{itemize}
+
+\subsection{Internal Examination Pattern}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Part A:} 5 questions × 3 marks = 15 marks (Answer all)
+    \item \textbf{Part B:} 7 questions × 7 marks, answer any 5 = 35 marks
+    \item \textbf{Total:} 50 marks
+\end{itemize}
+
+\subsection{End Semester Examination Pattern}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Part A:} 8 questions (2 from each module) × 3 marks = 24 marks (Answer all)
+    \item \textbf{Part B:} 8 questions (2 from each module), answer one from each module × 19 marks = 76 marks
+    \item \textbf{Total:} 100 marks
+\end{itemize}
+
+\newpage
+
+%======================================================================
+\section{Text Books}
+%======================================================================
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Ze-Nian Li and M. S. Drew}, \textit{Fundamentals of Multimedia}, 2nd Edition, Pearson Education, 2014. [Primary Text]
+\end{enumerate}
+
+%======================================================================
+\section{Reference Books}
+%======================================================================
+
+\begin{enumerate}[leftmargin=*]
+    \item K. R. Rao, Zoran S. Bojkovic, D. A. Milovanovic, \textit{Introduction to Multimedia Communications: Applications, Middleware, Networking}, Wiley, 2006.
+    \item V. S. Subrahmanian, \textit{Principles of Multimedia Database Systems}, Morgan Kaufmann Publishers, 1998.
+    \item R. Steinmetz and K. Nahrstedt, \textit{Multimedia: Computing, Communications and Applications}, Pearson Education, 2002.
+    \item John F. Koegel Buford, \textit{Multimedia Systems}, Pearson Education, 1994.
+    \item Prabhat K. Andheigh, Kiran Thakrar, \textit{Multimedia Systems Design}, Prentice Hall PTR, 1996.
+    \item Jerry D. Gibson, \textit{Multimedia Communications: Directions and Innovations}, Elsevier Science, 2000.
+\end{enumerate}
+
+\newpage
+
+%======================================================================
+\section{Sample Question Bank}
+%======================================================================
+
+\subsection{Module 1 Questions}
+\begin{enumerate}[leftmargin=*]
+    \item Differentiate between multimedia and hypermedia with examples.
+    \item Explain the differences between raster and vector graphics.
+    \item Describe the RGB and YUV color models. When is each preferred?
+    \item Explain the Nyquist theorem and its importance in audio digitization.
+    \item Describe the structure of a MIDI message and explain Pitch Bend operation.
+\end{enumerate}
+
+\subsection{Module 2 Questions}
+\begin{enumerate}[leftmargin=*]
+    \item Calculate the entropy for a source with symbols having probabilities 0.4, 0.3, 0.2, 0.1.
+    \item Construct a Huffman code for the symbols A, B, C, D with frequencies 5, 3, 2, 1.
+    \item Explain the LZW algorithm with an example encoding of "ABABABAB".
+    \item Describe the working of an Arithmetic encoder and decoder for input "01111".
+    \item Compare scalar and vector quantization with advantages and disadvantages.
+\end{enumerate}
+
+\subsection{Module 3 Questions}
+\begin{enumerate}[leftmargin=*]
+    \item Describe the complete JPEG compression pipeline with a block diagram.
+    \item Compare JPEG and JPEG2000 standards in terms of features and performance.
+    \item Explain psychoacoustic masking and its application in MPEG audio compression.
+    \item Calculate the compression ratio for MPEG audio at 256 kbps (16-bit, 48 kHz stereo).
+    \item Draw and explain the MPEG-2 encoder and decoder block diagrams.
+\end{enumerate}
+
+\subsection{Module 4 Questions}
+\begin{enumerate}[leftmargin=*]
+    \item Explain content-based image retrieval with feature extraction techniques.
+    \item How do you evaluate the performance of an image search engine?
+    \item Differentiate between public, private, and hybrid cloud deployments.
+    \item Explain the architecture of multimedia cloud computing with all components.
+    \item Discuss the challenges and requirements for computation offloading in mobile multimedia.
+\end{enumerate}
+
+\newpage
+
+%======================================================================
+\section{Model Question Paper}
+%======================================================================
+
+\begin{center}
+    \textbf{APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY}\\
+    \textbf{B.TECH DEGREE EXAMINATION}\\[0.3cm]
+    \textbf{Course Code: CXT332}\\
+    \textbf{Course Name: Multimedia Technologies}\\[0.3cm]
+    \textbf{Max Marks: 100 \hspace{2cm} Duration: 3 Hours}
+\end{center}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+\noindent\textbf{PART A}\\
+\textit{(Answer all questions. Each question carries 3 marks)}\\[0.3cm]
+
+\begin{enumerate}
+    \item Differentiate between multimedia and hypermedia.
+    \item Explain the RGB color model with its applications.
+    \item What is the significance of entropy in data compression?
+    \item Compare Huffman coding and Arithmetic coding.
+    \item Describe the DCT transform used in JPEG.
+    \item What is psychoacoustic masking?
+    \item Explain I, P, and B frames in MPEG video.
+    \item What is content-based image retrieval?
+    \item Define cloud service models (IaaS, PaaS, SaaS).
+    \item What is computation offloading?
+\end{enumerate}
+\hfill \textbf{(8 × 3 = 24 Marks)}
+
+\vspace{0.5cm}
+\noindent\textbf{PART B}\\
+\textit{(Answer one question from each module. Each question carries 19 marks)}\\[0.3cm]
+
+\noindent\textbf{Module 1}
+\begin{enumerate}[start=11]
+    \item (a) Explain various color models used in image processing. (10)\\
+          (b) Describe the digitization process of audio signals. (9)
+    \item (a) Discuss different multimedia file formats and their characteristics. (10)\\
+          (b) Explain the MIDI protocol and its applications. (9)
+\end{enumerate}
+
+\noindent\textbf{Module 2}
+\begin{enumerate}[start=13]
+    \item (a) Explain Huffman coding with an example. (10)\\
+          (b) Describe wavelet-based compression techniques. (9)
+    \item (a) Explain the LZW compression algorithm with an example. (10)\\
+          (b) Describe vector quantization and its advantages. (9)
+\end{enumerate}
+
+\noindent\textbf{Module 3}
+\begin{enumerate}[start=15]
+    \item (a) Describe the JPEG compression standard in detail. (12)\\
+          (b) Compare JPEG and JPEG2000 standards. (7)
+    \item (a) Explain MPEG-1 video compression with block diagram. (12)\\
+          (b) Describe MPEG audio compression. (7)
+\end{enumerate}
+
+\noindent\textbf{Module 4}
+\begin{enumerate}[start=17]
+    \item (a) Explain content-based image retrieval techniques. (10)\\
+          (b) Describe similarity-based search in multimedia databases. (9)
+    \item (a) Explain multimedia cloud computing architecture. (10)\\
+          (b) Discuss computation offloading for multimedia services. (9)
+\end{enumerate}
+\hfill \textbf{(4 × 19 = 76 Marks)}
+
+\vspace{1cm}
+\begin{center}
+    \rule{0.5\textwidth}{0.5pt}\\
+    \textit{End of Question Paper}
+\end{center}
+
+\end{document}
