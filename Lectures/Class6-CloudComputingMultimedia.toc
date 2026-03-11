@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Cloud Computing Overview}{3}{0}{1}
+\beamer@sectionintoc {2}{Multimedia Cloud Computing}{7}{0}{2}
+\beamer@sectionintoc {3}{Cloud-Assisted Media Sharing}{10}{0}{3}
+\beamer@sectionintoc {4}{Computation Offloading for Multimedia}{14}{0}{4}
+\beamer@sectionintoc {5}{Interactive Cloud Gaming}{20}{0}{5}
+\beamer@sectionintoc {6}{Case Study: Netflix}{25}{0}{6}
+\beamer@sectionintoc {7}{Summary}{34}{0}{7}

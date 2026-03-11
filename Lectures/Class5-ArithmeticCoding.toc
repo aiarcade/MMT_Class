@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Motivation: Why Go Beyond Huffman?}{3}{0}{1}
+\beamer@sectionintoc {2}{How Arithmetic Coding Works}{6}{0}{2}
+\beamer@sectionintoc {3}{Step-by-Step Example}{9}{0}{3}
+\beamer@sectionintoc {4}{Decoding}{15}{0}{4}
+\beamer@sectionintoc {5}{Detailed Worked Example}{19}{0}{5}
+\beamer@sectionintoc {6}{Why Arithmetic Coding is Better}{23}{0}{6}
+\beamer@sectionintoc {7}{Practical Considerations}{25}{0}{7}
+\beamer@sectionintoc {8}{Practice Exercises}{28}{0}{8}
+\beamer@sectionintoc {9}{Applications}{32}{0}{9}
+\beamer@sectionintoc {10}{Comparison Summary}{35}{0}{10}
+\beamer@sectionintoc {11}{Summary}{36}{0}{11}
