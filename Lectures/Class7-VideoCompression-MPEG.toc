@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Video Compression Based on Motion Compensation}{3}{0}{1}
+\beamer@sectionintoc {2}{MPEG-1: Video Bitstream}{11}{0}{2}
+\beamer@sectionintoc {3}{MPEG-2: Supporting Interlaced Video}{17}{0}{3}
+\beamer@sectionintoc {4}{MPEG-4: Overview}{23}{0}{4}
+\beamer@sectionintoc {5}{MPEG-7: Introduction}{29}{0}{5}
+\beamer@sectionintoc {6}{Summary}{36}{0}{6}
