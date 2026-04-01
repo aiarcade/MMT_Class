@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.1)  1 APR 2026 02:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.1)  1 APR 2026 03:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1082,7 +1082,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [7
 
 ]
-Overfull \vbox (0.58844pt too high) detected at line 291
+Overfull \vbox (0.58844pt too high) detected at line 290
  []
 
 [8
@@ -1168,8 +1168,8 @@ changed.
  ) 
 Here is how much of TeX's memory you used:
  28695 strings out of 469005
- 594829 string characters out of 5455855
- 985865 words of memory out of 5000000
+ 594827 string characters out of 5455855
+ 985933 words of memory out of 5000000
  56758 multiletter control sequences out of 15000+600000
  641714 words of font info for 91 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -1188,7 +1188,7 @@ local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Class8-DigitalAudioCompression.pdf (37 pages, 265335 bytes).
+Output written on Class8-DigitalAudioCompression.pdf (37 pages, 266054 bytes).
 PDF statistics:
  593 PDF objects out of 1000 (max. 8388607)
  395 compressed objects within 4 object streams
