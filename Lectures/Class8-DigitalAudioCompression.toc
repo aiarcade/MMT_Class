@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Basics of Digital Audio}{3}{0}{1}
+\beamer@sectionintoc {2}{MIDI}{9}{0}{2}
+\beamer@sectionintoc {3}{Lossless Compression Algorithms}{11}{0}{3}
+\beamer@sectionintoc {4}{Distortion Measures \& Rate-Distortion Theory}{14}{0}{4}
+\beamer@sectionintoc {5}{Quantization}{16}{0}{5}
+\beamer@sectionintoc {6}{Transform Coding \& Wavelets}{19}{0}{6}
+\beamer@sectionintoc {7}{Audio Compression Techniques}{23}{0}{7}
+\beamer@sectionintoc {8}{Psychoacoustics}{27}{0}{8}
+\beamer@sectionintoc {9}{MPEG Audio (MP3)}{31}{0}{9}
+\beamer@sectionintoc {10}{Summary}{36}{0}{10}
